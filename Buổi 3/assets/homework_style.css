@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;600&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #CDCDCD;
+}
+.body1{
+    background-color: #11151E;
+}
+.navbar li, a,button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #CDCDCD ;
+    background-color: #21242b;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #21242b
+}
+table{
+    border: none;
+    background-color: #11151E;
+}
+.body2{
+   background-image: url(media/sky_at_night.jpg);
+   color: #CDCDCD;
+   font-family: 'Manrope', sans-serif;
+   font-size: 40px;
+   background-color: none;
+}
+#nav ul {
+    list-style-type : none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0 40px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.heading {
+    font-family:'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 95px;
+    text-align: center;
+    clear: both;
+    padding: 100px;
+    background-color: #11151E;
+}
+.content{
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    padding: 0 10%;
+    background-color: #11151E;
+}
+.right {
+    text-align: right;
+}
+.quote{
+    padding: 0 20%;
+    padding-top: 20%;
+    font-family: 'Manrope',sans-serif;
+    font-size: 100px;
+}
+.footer{
+    background-color: #21242b;
+    font-family:'Manrope', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 30px;
+}
+#logo{
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    background-color: #21242b;
+}
+.about_me{
+    float: left;
+    height: 400px;
+    width: auto;
+    margin:0 15%;
+}
+.proj{
+    float: right;
+    width: 500px;
+    margin:0 10%;
+}
+.desk{
+    float: left;
+    height: 360px;
+    padding: 0 10%;
+}
+.form{
+    padding: 0 35%;
+    font-family:'Manrope', sans-serif;
+    font-size: 28px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" href="assets/media/retro.gif" />
+    <title>Bài thực hành buổi 3</title>
+  </head>
+  <body>
+    <iframe
+      src="assets/media/250-milliseconds-of-silence.mp3"
+      allow="autoplay"
+      id="audio"
+      style="display: none"
+    ></iframe>
+    <audio hidden autoplay>
+      <source
+        src="assets/media/y2mate.com - Rick Astley  Never Gonna Give You Up Official Music Video.mp3"
+      />
+    </audio>
+    <div id="form">
+      <h1>Xập xình kiểu retro đi cậu!!</h1>
+      <h2>Tên của cậu</h2>
+      <form>
+        <label for="family_name">Họ</label><br />
+        <input type="text" name="family_name" /> <br />
+        <label for="name">Tên</label><br />
+        <input type="text" name="name" /><br />
+        <label for="email">Email</label><br />
+        <input type="text" name="email" /><br />
+        <label for="contact">Số điện thoại</label><br />
+        <input type="text" name="contact" />
+      </form>
+      <h2>Cậu thuộc giống nào?</h2>
+      <form>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Nam</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Nữ</label>
+      </form>
+      <h2>Cậu từ đâu tới?</h2>
+      <select id="nationality" name="nation" form="country_list">
+        <option value="Vietnam">Việt Nam</option>
+        <option value="US">Hoa Kỳ</option>
+        <option value="CN">Trung Quốc</option>
+        <option value="other">Khác</option>
+      </select>
+      <br /><br />
+      <input type="submit" value="GÉT GOOOOO" />
+    </div>
+  </body>
+</html>
