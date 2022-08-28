@@ -1,0 +1,25 @@
+#butt1 {
+    background-color: rgb(42, 101, 227);
+    font-size: 25px;
+    display: flex;
+    color: white;
+    border: 1px solid black ;
+    border-radius:  10px ;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+#butt2 {
+    font-size: 80px;
+    background-image: linear-gradient(to top right,#2E3192,#1BFFFF);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.id {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

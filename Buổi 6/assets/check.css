@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+}
+.new {
+  border: 2px red solid;
+  display: flex;
+  width: 300px;
+  font-size: 30px;
+  color: black;
+  margin-top: 20px;
+}
+.new :hover{
+    text-decoration: underline 1px;
+    font-size: 33px;
+
+}
