@@ -23,3 +23,9 @@
     margin-top: 80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#numChange {
+    font-size: 30px;
+    background-image: linear-gradient(to top right,#009245,#FCEE21);
+    border: none;
+    color: white;
+}
