@@ -1,0 +1,70 @@
+/* global */
+body{
+    margin: 0px 0px;
+}
+.header {
+    background-color: rgb(226, 226, 226);
+    margin: none;
+    padding-bottom: 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+button {
+   background-color: rgb(100, 31, 146);
+   color: rgb(240, 240, 240);
+   font-size: 20px;
+   border: rgb(190, 29, 190);
+   border-radius: 10px;
+}
+button:hover{
+    background-color:rgb(243, 35, 35) ;
+    cursor: pointer;
+}
+/* header*/
+.head1{
+    text-align: center;
+    font-size: 55px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.sub1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+/* content */
+.head2{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 25px 20px;
+    margin-bottom: 30px;
+}
+.booklist {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+    padding: 0px 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-left: 6px solid rgb(168, 168, 168);
+}
+.booklist:hover{
+    border-color: rgb(212, 46, 212);
+}
+/* footer */
+.addButton {
+    padding-left: 20px;
+    border-radius: 0px;
+    font-size: 30px;
+}
+.addButton:hover {
+    background-color:rgb(100, 31, 146)
+}
+#addBook{
+    font-size: 30px;
+}
