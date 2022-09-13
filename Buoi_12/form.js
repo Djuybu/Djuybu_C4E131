@@ -1,6 +1,6 @@
 // console.log(userName);
 function submitForm(params) {
-    // code than ki qua
+    // 
   checkName = document.querySelector("#userName").value.length;
   console.log(checkName);
   checkPasswordLength = document.querySelector("#password").value.length;

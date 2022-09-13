@@ -1,0 +1,63 @@
+/* header */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;600&family=Manrope:wght@200;300;400;600;700&family=Roboto:ital@0;1&display=swap");
+* {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+/* fixed header     */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0px 5px 6px -5px #000000;
+  background-color: white;
+}
+.logo {
+  cursor: pointer;
+  display: block;
+  align-self: center;
+  height: 50px;
+  width: auto;
+}
+.header-section {
+  list-style: none;
+  font-weight: 600;
+}
+.header-section li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 25px;
+  color: #063752;
+  cursor: pointer;
+}
+.header-section li:hover {
+  color: black;
+}
+/* body */
+.web_body {
+  margin-top: 95px;
+}
+.banner {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+}
+.headline {
+  font-size: 60px;
+  font-weight: 700;
+  padding-left: 3%;
+  color: rgb(14, 129, 14);
+  border-bottom: 3px solid rgb(14, 129, 14) ;
+}
