@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;800&family=Poppins:wght@400;800;900&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,7 @@
 .heading1 {
     font-size: 80px;
     margin: 15px;
-    font-weight: 400 ;
+    font-weight: 400;
 }
 .navbar {
     padding: 0 20px;
@@ -34,6 +35,7 @@
     text-decoration: none;
 }
 .list li {
+    font-family: 'Poppins','san-serif';
     list-style-type: none;
     padding: 20px;
     font-size: 30px;
@@ -54,7 +56,7 @@
     margin-right: 30px;
 }
 .name {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Marryweather';
     font-weight: 900;
 }
